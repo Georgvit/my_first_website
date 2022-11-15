@@ -58,7 +58,15 @@ table td {
     margin: auto;
 }
 
-
+.footer{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    text-align: left;
+    top: 330%;
+    left: 30%;
+    margin: auto;
+}
 
 
 h4 {
