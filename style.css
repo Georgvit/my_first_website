@@ -1,3 +1,5 @@
+
+
 .head{
     width: 100%;
     height: 100%;
@@ -9,7 +11,7 @@
 
 .block {
     display: table-cell;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
 }
 
@@ -17,7 +19,7 @@
     width: 1000px;
     height: 1000px;
     position: absolute;
-    text-align: center;
+    text-align: left;
     top: 75%;
     left: 30%;
     margin: auto;
@@ -26,10 +28,14 @@
 .table_moto_characteristic{
     width: 1000px;
     height: 1000px;
-    text-align: left;
+    text-align: center;
     top: 25%;
     left: 0;
 
+}
+
+title{
+    text-align: center;
 }
 
 table {
@@ -42,10 +48,28 @@ table td {
 	border:1px solid rgba(104, 105, 107, 0.38);
 }
 
+.text_full{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    text-align: left;
+    top: 210%;
+    left: 30%;
+    margin: auto;
+}
+
 
 
 
 h4 {
+    font-size: 20px;
+    color: #4485b8;
+  }
+  th{
+    color: #4485b8;
+  }
+
+  h5 {
     font-size: 20px;
     color: #4485b8;
   }
